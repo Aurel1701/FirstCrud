@@ -10,7 +10,7 @@ import javax.persistence.Id;
 @Entity(name = "giocatore")
 public class Giocatore {
     @Id // PK
-    @GeneratedValue(strategy= GenerationType.IDENTITY) // o use a MySQL AUTO_INCREMENT column, you are supposed to use an IDENTITY strategy
+    @GeneratedValue(strategy= GenerationType.IDENTITY) //  use a MySQL AUTO_INCREMENT column, you are supposed to use an IDENTITY strategy
     private Integer id;
     private String nome;
     private Integer età;

@@ -53,7 +53,7 @@ public class giocatoreController {
     }
 
      //edit giocatore
-    @PutMapping("/update/{id}")
+    @PutMapping("/update")
     public Giocatore editGiocatore(@RequestBody Giocatore giocatore){
         return giocatoreService.updateGiocatore(giocatore);
     }
